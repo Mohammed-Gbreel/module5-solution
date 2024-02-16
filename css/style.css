@@ -1,0 +1,455 @@
+/*============ All settings styles ============ 
+===============================================*/
+body {
+    background-color: #3F0C1F;
+    transition: all .3s ease;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition: all .3s ease;
+}
+
+/*============ Header site styles ============ 
+==============================================*/
+.navbar {
+    background-color: #f6b319;
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar-brand #logo-img {
+    width: 150px;
+    height: 150px;
+    margin-left: 40px;
+}
+
+img,
+svg {
+    margin-top: -9px;
+}
+
+.name-brand a {
+    text-decoration: none;
+}
+
+.name-brand a h1 {
+    font-size: 1.5em !important;
+    text-shadow: 1px 1px 1px #222;
+    color: #557c3e;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 24px;
+    line-height: .75;
+    font-weight: bold;
+}
+
+.name-brand p {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.name-brand p span {
+    margin-top: 2px;
+}
+
+/*====== Navbar links ====== */
+.navbar-collapse .navbar-nav {
+    margin-left: 50%;
+    margin-top: 20px;
+}
+
+.navbar-collapse .navbar-nav .nav-item {
+    text-align: center;
+    padding: 10px;
+}
+
+.navbar-collapse .navbar-nav .nav-item i {
+    font-size: 26px;
+    color: #b71540;
+    cursor: pointer;
+}
+
+.navbar-collapse .navbar-nav .nav-item span {
+    margin-left: 44px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #557c3e;
+}
+
+.navbar-collapse .navbar-nav .nav-item .nav-link {
+    color: #b71540;
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 0;
+}
+
+.navbar-collapse .navbar-nav .nav-item:hover {
+    background-color: #E7E7E7;
+    border-radius: 20px 10px 20px 10px;
+}
+
+/*====== Navbar Button Toggle start ====== */
+.navbar-toggler {
+    color: #f6b319;
+    background-color: #b71540;
+    border: 2px solid #557c3e;
+    outline: none;
+    padding: 10px;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar-toggler .fa-dragon {
+    margin: auto;
+}
+/*====== Navbar Button Toggle end ====== */
+
+
+/*====== Image cover style start ====== */
+.carousel .carousel-inner .carousel-item .cover {
+    background-image: url(../images/AsiaRestaurantscreenshot01-1920x1080-74986307611a447a41192faa2fbc944e.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    align-items: center;
+    margin: 10px 15px 10px 0;
+}
+/*====== Image cover style end ====== */
+
+/*====== Phone number style start ====== */
+#call-btn {
+    background-color: #f6b319;
+    text-align: center;
+    border: 2px solid #fff;
+    margin: 20px;
+    border-radius: 6px;
+    display: none;
+}
+
+#call-btn:focus {
+    box-shadow: none;
+    outline: none;
+    background: none;
+}
+
+#call-btn a {
+    color: #b71540;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#call-btn i {
+    color: #b71540;
+    font: 40px;
+    font-size: 30px;
+    margin: 10px;
+}
+
+#xs-deliver {
+    display: none;
+    color: #fff;
+    font-size: 18px;
+    margin-top: -18px;
+}
+/*====== Phone number style end ====== */
+
+/*====== Home style start ====== */
+#main-content {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+#menu-tile, #specials-tile, #map-tile {
+    height: 250px;
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+    border: 2px solid #3F0C1F;
+    overflow: hidden;
+}
+
+#menu-tile:hover, #specials-tile:hover, #map-tile:hover {
+    box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#menu-tile {
+    background: url('../images/menu-tile.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+
+#specials-tile {
+    background: url('../images/specials-tile.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#menu-tile span, #specials-tile span, #map-tile span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    opacity: .8;
+}
+/*====== Home style end ====== */
+
+/*====== Footer style start ====== */
+.panel-footer {
+    margin-top: 30px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    background-color: #1e272e;
+    border-top: 0;
+    color: #fff;
+}
+
+.panel-footer div.row {
+    margin-bottom: 35px;
+}
+
+#hours,
+#address {
+    line-height: 2;
+}
+
+#hours > span,
+#address > span {
+    font-size: 1.3em;
+}
+
+#address p {
+    color: #557c3e;
+    font-size: .8em;
+    line-height: 1.8;
+}
+
+#testimonials {
+    font-style: italic;
+}
+
+#testimonials p:nth-child(2) {
+    margin-top: 25px;
+}
+.visible-xs {
+    display: none;
+}
+/*====== Footer style end ====== */
+
+
+/*====== Menu categories style start ====== */
+#menu-categories-title {
+    color: #fff;
+    margin-bottom: 20px;
+}
+#sub-title {
+    color: #fff;
+    margin-bottom: 50px;
+}
+.category-tile {
+    position: relative;
+    border: 2px solid #3F0C1F;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 15px;
+}
+
+.category-tile span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    opacity: .8;
+}
+
+.category-tile:hover {
+    box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#menu-categories-title+div {
+    margin-bottom: 50px;
+}
+
+/*====== Menu categories style end ====== */
+
+
+/*====== Single item style start ====== */
+.row {
+    color: #fff;
+}
+.menu-item-title {
+    margin-bottom: 25px;
+}
+
+
+.menu-item-tile hr {
+    width: 80%;
+}
+
+.menu-item-price {
+    font-size: 1.1em;
+    text-align: center ;
+    margin-top: -15px;
+    margin-right: -15px;
+    margin-bottom: 40px;
+}
+
+.menu-item-tile .menu-item-price span {
+    font-size: .6em;
+}
+
+.menu-item-photo {
+    position: relative;
+    border: 2px solid #3F0C1F;
+    overflow: hidden;
+    padding: 0;
+    margin-right: -15px;
+    margin-left: auto;
+    margin-bottom: 20px;
+    max-width: 250px;
+}
+
+.menu-item-photo div {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 80px;
+    background-color: #557c3e;
+    text-align: center;
+}
+
+.menu-item-description {
+    padding-right: 30px;
+}
+
+h3.menu-item-title {
+    margin: 0 0 10px;
+}
+
+.menu-item-details {
+    font-size: .9em;
+    font-style: italic;
+}
+/*====== Single item style end ====== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=================== Media query =====================
+=======================================================*/
+/*====== Large devices only ======*/
+@media (min-width: 1200px) {
+    .carousel .carousel-inner .carousel-item .cover {
+        height: 675px;
+    }
+
+}
+
+
+/*====== Small devices only ======*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .carousel .carousel-inner .carousel-item .cover {
+        height: 432px;
+    }
+    .name-brand a h1 {
+        padding-top: 10px;
+        font-size: 3vw !important;
+        margin-right: 140px;
+    }
+    .navbar-collapse {
+        font-size: 1.2em;
+        margin-right: 36%;
+    }
+    .panel-footer {
+        text-align: center;
+    }
+    .visible-xs {
+        display: none;
+    }
+}
+
+
+/*====== Extra small devices only ======*/
+@media (max-width: 767px) {
+    .carousel .carousel-inner .carousel-item .cover {
+        height: 432px;
+    }
+    #hidden-xs {
+        display: none;
+    }
+    #call-btn {
+        display: block;
+    }
+
+    #call-btn a {
+        display: block;
+        border: 1px solid #fff;
+        box-shadow: none;
+        padding: 10px;
+        font-size: 1.5em;
+    }
+
+    #xs-deliver {
+        display: block;
+        font-size: 16px;
+        text-transform: uppercase !important;
+    }
+
+    .navbar-brand {
+        padding-top: 10px;
+        height: 80px;
+        margin-left: 20px;
+    }
+
+    .navbar-brand #logo-img {
+        display: none;
+    }
+
+    .name-brand a h1 {
+        padding-top: 10px;
+        font-size: 5vw !important;
+        margin-right: 60px;
+    }
+    .navbar-collapse {
+        font-size: 1.2em;
+        margin-right: 35%;
+    }
+    .panel-footer {
+        text-align: center;
+    }
+    .visible-xs {
+        display: block;
+    }
+
+}
+
+
+/*====== Super extra small devices Only (iphone-4) ======*/
+@media (max-width: 479px) {
+    .carousel .carousel-inner .carousel-item .cover {
+        height: 432px;
+    }
+}

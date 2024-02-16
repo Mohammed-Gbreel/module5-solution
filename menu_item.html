@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>David Chu's China Bistro</title>
+    <!--==== Links ====-->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!--==== Start navbar ====-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <!-- Logo -->
+            <a class="navbar-brand" href="#">
+                <img src="images/rest-logo.png" id="logo-img" alt="">
+            </a>
+            <!-- Brand name -->
+            <div class="name-brand">
+                <a href="index.html">
+                    <h1 id="david">David Chu's China Bistro</h1>
+                </a>
+                <p>
+                    <img src="images/star-k-logo.png" alt="">
+                    <span>kosher certified</span>
+                </p>
+            </div>
+            <!-- Mobile screen button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">
+                    <i class="fa fa-dragon"></i>
+                </span>
+            </button>
+            <!-- Menu -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <i class="fa-solid fa-home"></i>
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <i class="fa-solid fa-burger"></i>
+                        <a class="nav-link active" aria-current="page" href="#">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <i class="fa-solid fa-circle-info"></i>
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <i class="fa-solid fa-award"></i>
+                        <a class="nav-link" href="#">Awards</a>
+                    </li>
+                    <li id="hidden-xs" class="nav-item">
+                        <i class="fa-solid fa-phone-volume"></i>
+                        <a class="nav-link" href="tel:410-602-5008">410-602-5008</a>
+                        <span>We deliver</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--==== End navbar ====-->
+
+    <!--==== Phone number visible in differnt style in small screens ====-->
+    <div id="call-btn" class="visible-xs">
+        <a class="btn" href="tel:410-602-5008">
+            <i class="fa-solid fa-phone-volume"></i>
+            410-602-5008
+        </a>
+    </div>
+    <div id="xs-deliver" class="text-center">* We Deliver</div>
+
+    <!--==== Menu Categories content ====-->
+    <div id="main-content" class="container">
+        <h2 id="menu-categories-title" class="text-center">Menu Specials Desh</h2>
+        <div id="sub-title" class="text-center">
+            We recommend this special aswome dish to start with and countinue to other perfect dishes.
+        </div>
+        <div id="home-tiles" class="row">
+            <!--=== Menu item start ===-->
+            <div class="col-md-6 col-sm-4 col-xs-6 col-xxs-12">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>Special</div>
+                            <img id="image-id" class="img-responsive" width="250" height="150" src="images/menu/1.jpg"
+                                alt="Item" />
+                        </div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 id="title-item" class="menu-item-title">Special One</h3>
+                        <p class="menu-item-details">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                            Fuga a vero deleniti maiores nesciunt suscipit fugiat officiis eius,
+                            ducimus voluptatum libero doloribus quisquam dolores,
+                            deserunt nisi doloremque. Harum, soluta! Neque?</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="col-md-6 col-sm-4 col-xs-6 col-xxs-12">
+                        <div class="row">
+                            <div class="col-sm-5">
+                                <div class="menu-item-photo">
+                                <div>B1</div>
+                                <img class="img-responsive" width="250" height="150" src="images/menu/B.jpg" alt="Item">
+                                </div>
+                                <div class="menu-item-price">$5.50<span>pint</span> $11.00 <span>quart</span></div>
+                            </div>
+                            <div class="menu-item-description col-sm-7">
+                                <h3 class="menu-item-title">Teriyaki Beef</h3>
+                                <p class="menu-item-details">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                    Fuga a vero deleniti maiores nesciunt suscipit fugiat officiis eius,
+                                    ducimus voluptatum libero doloribus quisquam dolores,
+                                    deserunt nisi doloremque. Harum, soluta! Neque?</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-sm-4 col-xs-6 col-xxs-12">
+                        <div class="row">
+                            <div class="col-sm-5">
+                                <div class="menu-item-photo">
+                                <div>C1</div>
+                                <img class="img-responsive" width="250" height="150" src="images/menu/C.jpg" alt="Item">
+                                </div>
+                                <div class="menu-item-price">$5.50<span>pint</span> $11.00 <span>quart</span></div>
+                            </div>
+                            <div class="menu-item-description col-sm-7">
+                                <h3 class="menu-item-title">Orange Chicken</h3>
+                                <p class="menu-item-details">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                    Fuga a vero deleniti maiores nesciunt suscipit fugiat officiis eius,
+                                    ducimus voluptatum libero doloribus quisquam dolores,
+                                    deserunt nisi doloremque. Harum, soluta! Neque?</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-sm-4 col-xs-6 col-xxs-12">
+                        <div class="row">
+                            <div class="col-sm-5">
+                                <div class="menu-item-photo">
+                                <div>D1</div>
+                                <img class="img-responsive" width="250" height="150" src="images/menu/D.jpg" alt="Item">
+                                </div>
+                                <div class="menu-item-price">$5.50<span>pint</span> $11.00 <span>quart</span></div>
+                            </div>
+                            <div class="menu-item-description col-sm-7">
+                                <h3 class="menu-item-title">Spicy Tuna Sushi Roll</h3>
+                                <p class="menu-item-details">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                    Fuga a vero deleniti maiores nesciunt suscipit fugiat officiis eius,
+                                    ducimus voluptatum libero doloribus quisquam dolores,
+                                    deserunt nisi doloremque. Harum, soluta! Neque?</p>
+                            </div>
+                        </div>
+                    </div> -->
+
+            <!--=== Menu item end ===-->
+        </div>
+    </div>
+
+
+    <!--==== Footer content ====-->
+    <footer class="panel-footer">
+        <div class="container">
+            <div class="row">
+                <section id="hours" class="col-sm-4">
+                    <span>Hours:</span><br>
+                    Sun-Thurs: 11:15am - 10:00pm<br>
+                    Fri: 11:15am - 2:30pm<br>
+                    Saturday Closed
+                    <hr class="visible-xs">
+                </section>
+                <section id="address" class="col-sm-4">
+                    <span>Address:</span><br>
+                    7105 Reisterstown Road<br>
+                    Baltimore, MD 21215
+                    <p>* Delivery area within 3-4 miles, with minimum order of $20 plus $3 charge for all deliveries.
+                    </p>
+                    <hr class="visible-xs">
+                </section>
+                <section id="testimonials" class="col-sm-4">
+                    <p>"The best Chinese restaurant I've been to! And that's saying a lot, since I've been to many!"</p>
+                    <p>"Amazing food! Great service! Couldn't ask for more! I'll be back again and again!"</p>
+                </section>
+            </div>
+            <div id="copyright" class="text-center">&copy; Copyright David Chu's China Bistro 2024</div>
+        </div>
+    </footer>
+
+    <script>
+        window.onload(get_random_image());
+    </script>
+
+
+    <!--==== JS links ====-->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
